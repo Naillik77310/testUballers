@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #3b5998;
+    height: 80px;
+    width: 100%;
+}
+h1{
+    margin-top: 50px;
+}
+.free{
+    margin-top: 20px;
+}
+body{
+    background: linear-gradient(#fefefe, #d5dbe8);
+    margin: 0;
+    padding: 0;
+}
+.login{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.login .mail,
+.login .pwd{
+    flex-direction: column;
+    padding-left: 10px;
+    font-size: 10px;
+}
+.login .mail input,
+.login .pwd input{
+    padding-left: 5px;
+}
+.login .mail .font,
+.login .pwd .font{
+    font-size: 11px;
+    padding-bottom: 4px;
+    color: white;
+}
+.forget{
+    color: #848ea9 ;
+    font-size: 9px;
+    margin-top: 2px;
+}
+.login .button{
+    height: 20px;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
+main{
+    padding-left: 20px;
+
+}
+.register .button{
+    height: 30px;
+    width: 140px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(#78a153, #678746);
+    border: 1px solid #224285;
+}
+.register .birth{
+    height: 25px;
+    width: 55px;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 20px;
+    border-radius: 2px;
+    color: black;
+    background-color: white;
+    border: 1px solid whitesmoke;
+}
+.register .gender{
+    border-radius: 20px;
+}
+.register input{
+    padding-left: 5px;
+}
+.register .inputTwo{
+    height: 30px;
+    width: 145px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+}
+.register .inputOne{
+    height: 30px;
+    width: 301px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+}
+.register .one{
+    margin-top: 30px;
+}
+.register .two{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #2d5bba;
+}
+main .ok a{
+    font-size: 10px;
+}
